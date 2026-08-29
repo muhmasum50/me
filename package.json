@@ -8,6 +8,7 @@
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "generate": "nuxt generate",
     "lint": "eslint . --fix --no-cache",
     "typecheck": "nuxt typecheck"
   },
