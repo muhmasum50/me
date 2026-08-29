@@ -1,26 +1,28 @@
 {
-  "name": "portofolio-tailwind-nextjs",
-  "version": "0.1.0",
+  "name": "me",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "prod" : "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "daisyui": "^2.13.6",
-    "next": "12.1.4",
-    "next-themes": "^0.1.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@iconify-json/lucide": "^1.2.125",
+    "@iconify-json/simple-icons": "^1.2.93",
+    "@nuxt/ui": "^4.11.0",
+    "nuxt": "^4.5.2",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
-  }
+    "@nuxt/eslint": "^1.17.0",
+    "eslint": "^10.9.0",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.11"
+  },
+  "packageManager": "pnpm@11.22.0"
 }
