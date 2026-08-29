@@ -1,8 +1,15 @@
 <template>
-  <section id="about" class="px-6 py-20 border-t border-default">
+  <section
+    id="about"
+    class="px-6 py-20 border-t border-default"
+  >
     <UContainer class="max-w-3xl">
-      <p class="font-mono text-xs text-muted mb-2">01 / ABOUT</p>
-      <h2 class="text-2xl font-semibold font-mono mb-6">About Me</h2>
+      <p class="font-mono text-xs text-muted mb-2">
+        01 / ABOUT
+      </p>
+      <h2 class="text-2xl font-semibold font-mono mb-6">
+        About Me
+      </h2>
       <div class="space-y-4 text-muted leading-relaxed">
         <p>
           Hi, I'm <span class="text-default font-medium">Ma'sum</span> — a software

@@ -1,8 +1,15 @@
 <template>
-  <section id="contact" class="px-6 py-20 border-t border-default">
+  <section
+    id="contact"
+    class="px-6 py-20 border-t border-default"
+  >
     <UContainer class="max-w-3xl text-center">
-      <p class="font-mono text-xs text-muted mb-3">04 / CONTACT</p>
-      <h2 class="text-3xl font-semibold font-mono mb-4">Let's talk</h2>
+      <p class="font-mono text-xs text-muted mb-3">
+        04 / CONTACT
+      </p>
+      <h2 class="text-3xl font-semibold font-mono mb-4">
+        Let's talk
+      </h2>
       <p class="text-muted mb-8">
         Open to collaboration, technical discussions, or a chat about a stubborn server.
       </p>
